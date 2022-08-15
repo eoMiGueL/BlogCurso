@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --WhiteSmoke: #F5F5F5;
+    --gray: #4F4F4F;
+    --lightgray: #C0C0C0;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+/*Cabeçalho*/
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    box-shadow: 0 0 10px 1px #000;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+
+}
+
+.logo {
+    cursor: pointer;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.content nav ul {
+    list-style: none;
+    display: flex;
+    font-size: large;
+}
+
+.content nav ul li a:hover {
+    color: black;
+}
+
+.content nav ul li {
+    padding-right: 50px;
+}
+
+.content nav ul li a {
+    color: white;
+}
+
+/*Rodapé*/
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    box-shadow: 0 0 10px 1px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .social ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .social ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+footer .developed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 25px;
+}
+
+footer .developed h6 {
+    color: var(--WhiteSmoke);
+    margin-bottom: 7px;
+}
+
+/**********************************************************************************************************************************/
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+fieldset.grupo {
+    font-family: 'Fredoka One', cursive;
+}
+
+fieldset {
+    border: 0;
+}
+
+form {
+    background-color: var(--WhiteSmoke);
+    padding: 10px;
+    padding-bottom: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 370px;
+    height: 450px;
+
+    box-shadow: 5px 5px 5px black;
+}
+
+input,
+textarea,
+button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+    justify-content: center;
+}
+
+fieldset.grupo .campo {
+    margin-bottom: 1em;
+}
+
+textarea {
+    height: 220px;
+    resize: none;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.submit {
+    font-family: 'Fredoka One', cursive;
+    ;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: var(--WhiteSmoke);
+    background-color: black;
+}
+
+.submit:hover {
+    color: black;
+    background-color: var(--WhiteSmoke);
+}

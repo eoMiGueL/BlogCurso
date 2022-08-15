@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Give your Opinion</title>
+	<link rel="stylesheet" type="text/css" href="style/style-2.css">
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/x-icon" href="images/Logo/Logo_BloCAR.ico">
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<body style="background-color:#add8e6">
+	<header>
+		<h1 class="logo">BloCAR</h1>
+
+		<div class="content">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Opinion.html">Give us your coment</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="conteudo">
+		<form>
+			<fieldset class="grupo">
+				<div class="campo">
+					<label for="nome">Nome:</label>
+					<input type="text" name="nome" id="nome" required>
+				</div>
+				<div class="campo">
+					<label for="email">e-mail:</label>
+					<input type="email" name="email" id="email">
+				</div>
+			</fieldset>
+
+			<fieldset class="grupo">
+				<div class="campo">
+					<br>
+					<label for="opnion">Nos conte como podemos melhorar:</label>
+					<textarea row="6" style="width: 26em;" id="opnion" required></textarea>
+				</div>
+			</fieldset>
+			<button type="submit" class="submit" onclick="saveData()">Enviar</button>
+		</form>
+	</section>
+
+	<footer>
+		<div class="social">
+			<ul>
+				<li><a href="https://www.instagram.com/eoguel/" target="_blank"><img src="images/icons/instagram.png"
+							width="25" height="25"></a></li>
+				<li><a href="https://www.linkedin.com/in/miguel-moreira-9ab3051ab/" target="_blank"><img
+							src="images/icons/linkedin.png" width="25" height="25"></a></li>
+				<li><a href="https://api.whatsapp.com/send?phone=5519992803178" target="_blank"><img
+							src="images/icons/whatsapp.png" width="25" height="25"></a></li>
+			</ul>
+		</div>
+		<div class="developed">
+			<section>
+				<h6>© Developed by Miguel Santos</h6>
+			</section>
+		</div>
+	</footer>
+</body>
+
+</html>
